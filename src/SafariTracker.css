@@ -1,0 +1,303 @@
+/* 
+.safari-wrapper {
+  min-height: 100vh;
+  background: #112211;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  color:#FFFFFF;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.total-badge {
+  background: #10b981;
+  color: black;
+  padding: 10px 25px;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.animal-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  border: 5px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.animal-card:has(.status-text) {
+  border-color: #10b981;
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 280px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-body h3 {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn-small {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background: #f8fafc;
+  font-weight: bold;
+}
+
+.count {
+  font-size: 2.2rem;
+  font-weight: 800;
+  min-width: 45px;
+}
+
+.limit-msg {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.status-text {
+  color: #03855b;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.reset-btn {
+  margin-top: 50px;
+  padding: 10px 30px;
+  background: #e22121;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background: #f42020;
+}
+
+.tracker-footer {
+  margin-top: 40px;
+  padding: 20px;
+  width: 100%;
+  max-width: 950px;
+  border-radius: 12px;
+  border-top: 2px solid #e0e0e0;
+  text-align: center;
+  background-color: #f9f9f9; 
+}
+
+.tracker-footer p {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.fact-app-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #27ae60; 
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.fact-app-link:hover {
+  background-color: #219150;
+} */
+
+.safari-wrapper {
+  min-height: 100vh;
+  background: #112211;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  font-family: 'Segoe UI', sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.total-badge {
+  background: #10b981;
+  color: #112211;
+  padding: 10px 25px;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  justify-content: center; 
+  grid-template-columns: repeat(auto-fit, minmax(300px, 320px));
+  gap: 25px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.animal-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 5px solid #ffffff;
+  transition: transform 0.2s;
+}
+
+.animal-card:has(.status-text) {
+  border-color: #60cf20;
+}
+
+.animal-card:hover {
+  transform: translateY(-5px);
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 250px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+  text-align: center; 
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.btn-small {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  background: #f8fafc;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.count {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #112211;
+}
+
+.reset-btn {
+  margin: 50px 0 30px 0; 
+  padding: 12px 40px;
+  background: #ef4444;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.reset-btn:hover {
+  background: #dc2626;
+}
+
+.tracker-footer {
+  margin-top: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 950px;
+  background: white;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.tracker-footer p {
+  color: #5d6268;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.fact-app-link {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #10b937;
+  color: #112211;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.fact-app-link:hover {
+  background-color: #34d399;
+  transform: scale(1.05);
+}
