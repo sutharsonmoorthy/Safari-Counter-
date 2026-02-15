@@ -23,7 +23,7 @@ A sleek, responsive React application to track wildlife sightings in real-time. 
 
 1.  **Clone the repository**:
     ```bash
-    git clone [https://github.com/your-username/safari-tracker.git](https://github.com/your-username/safari-tracker.git)
+    git clone https://github.com/sutharsonmoorthy/Safari-Counter-.git
     ```
 
 2.  **Navigate to the project folder**:
@@ -47,4 +47,10 @@ A sleek, responsive React application to track wildlife sightings in real-time. 
 * `AnimalCard.js`: A reusable component for displaying animal data and controls.
 * `SafariTracker.css`: Custom styles including the dark theme and responsive grid.
 * `/assets`: Contains high-quality imagery for the wildlife.
+
+## 🤝 Thank You!
+
+Thank you for visiting the **Safari Tracker** repository! 
+I appreciate you taking the time to check out this project. 
+If you found this useful or have suggestions , feel free to reach out.
 
