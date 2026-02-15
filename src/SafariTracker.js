@@ -61,7 +61,7 @@ const SafariTracker = () => {
       <footer className="tracker-footer">
         <p>Want to learn more about these animals?</p>
         <a
-          href="https://your-fact-generator-link.vercel.app"
+          href="https://fact-generator-react.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="fact-app-link"
